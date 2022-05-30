@@ -1,0 +1,42 @@
+{
+  "name": "photo-sharing-webapp-react",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/api": "^3.3.3",
+    "@aws-amplify/storage": "^3.4.4",
+    "@aws-amplify/ui-react": "^2.16.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.1.1",
+    "aws-amplify": "^4.3.21",
+    "aws-amplify-react": "^5.1.9",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "semantic-ui-react": "^2.1.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
